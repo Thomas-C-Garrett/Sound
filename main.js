@@ -19,7 +19,7 @@ function init(){
     gainNode = context.createGain();
     oscillator = context.createOscillator();
 
-    set_freq(10);
+    set_freq(100);
     set_volume(0.1);
 
     oscillator.connect(gainNode);
